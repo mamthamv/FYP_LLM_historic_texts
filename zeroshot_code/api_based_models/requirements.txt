@@ -1,5 +1,0 @@
-pandas
-python-dotenv
-google-generativeai
-openai
-xai-sdk
