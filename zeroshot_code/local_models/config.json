@@ -1,0 +1,56 @@
+{
+  "models": [
+    {
+      "id": "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf",
+      "family": "local",
+      "skip": false
+    },
+    {
+      "id": "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "family": "local",
+      "skip": false
+    },
+    {
+      "id": "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf",
+      "family": "local",
+      "skip": false
+    },
+
+    {
+      "id": "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf",
+      "family": "local",
+      "skip": false
+    },
+    {
+      "id": "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf",
+      "family": "local",
+      "skip": false
+    },
+    {
+      "id": "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf",
+      "family": "local",
+      "skip": false
+    },
+
+    {
+      "id": "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf",
+      "family": "local",
+      "skip": true
+    },
+    {
+      "id": "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf",
+      "family": "local",
+      "skip": true
+    },
+    {
+      "id": "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf",
+      "family": "local",
+      "skip": true
+    }
+  ],
+  "benchmarks": [
+    { "name": "word_benchmark", "id": "medieval_irish_words_edil.csv" , "prompt": "# Translate to English the following medieval irish word without any explanation, greeting, or formatting commentary.\n# Responds with a comma-separated list encapsulated in the <response> XML tag: <response>meaning1, meaning2</response>.\n#\n# Example input:\n# word_to_translate\n# Example_output:\n# <response>meaning1, meaning2, meaning3</response>\n# The word is:\n"},
+    { "name": "phrase_benchmark", "id": "phrase_benchmark_dataset.csv", "prompt": "# Translate to English the following medieval irish phrase without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response>English translation here</response>.\n# The phrase is:\n"},
+    { "name": "para_benchmark", "id": "final_paragraph_dataset.csv", "prompt": "# Translate to English the following medieval irish sentence without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response>English translation here</response>.\n# The sentence is:\n"},
+    { "name": "synthetic_benchmark", "id": "synthetic dataset.csv", "prompt": "# Translate to English the following medieval irish sentence without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response>English translation here</response>.\n# The sentence is:\n"}]
+}

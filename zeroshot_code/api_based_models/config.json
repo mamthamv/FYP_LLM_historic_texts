@@ -1,0 +1,45 @@
+{
+  "models": [
+    {
+      "id": "gpt4o",
+      "family": "api",
+      "skip": false,
+      "api_env_key": "CHATGPT_API_KEY",
+      "call_fn": "gpt_llm_call",
+      "model": "gpt-4o",
+      "supports_top_k": false
+    },
+    {
+      "id": "grok",
+      "family": "api",
+      "skip": false,
+      "api_env_key": "GROK_API_KEY",
+      "call_fn": "grok_llm_call",
+      "model": "grok-3",
+      "supports_top_k": false
+    },
+    {
+      "id": "gemini",
+      "family": "api",
+      "skip": false,
+      "api_env_key": "GEMINI_API_KEY",
+      "call_fn": "gemini_llm_call",
+      "model": "gemini-2.5-flash",
+      "supports_top_k": true
+    },
+    {
+      "id": "gemma",
+      "family": "api",
+      "skip": false,
+      "api_env_key": "GEMINI_API_KEY",
+      "call_fn": "gemini_llm_call",
+      "model": "gemma-3-27b-it",
+      "supports_top_k": true
+    }
+  ],
+  "benchmarks":[
+    
+    { "name": "phrase_benchmark", "id": "phrase_benchmark_dataset.csv", "prompt": "# Translate to English the following medieval irish phrase without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response>English translation here</response>.\n# The phrase is:\n"},
+    { "name": "para_benchmark", "id": "final_paragraph_dataset.csv", "prompt": "# Translate to English the following medieval irish sentence without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response>English translation here</response>.\n# The sentence is:\n"},
+    { "name": "synthetic_benchmark", "id": "synthetic dataset.csv", "prompt": "# Translate to English the following medieval irish sentence without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response>English translation here</response>.\n# The sentence is:\n"}]
+}

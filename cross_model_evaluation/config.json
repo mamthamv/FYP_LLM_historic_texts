@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "id": "gpt4o",
+      "family": "closed",
+      "skip": false,
+      "api_env_key": "CHATGPT_API_KEY",
+      "call_fn": "gpt_llm_call",
+      "bench_name":"synthetic_cv_benchmark_gpt4o.csv"
+    },
+    {
+      "id": "gemini",
+      "family": "closed",
+      "skip": false,
+      "api_env_key": "GEMINI_API_KEY",
+      "call_fn": "gemini_llm_call",
+      "bench_name":"synthetic_cv_benchmark_gemini.csv"
+    },
+    {
+      "id": "grok",
+      "family": "closed",
+      "skip": false,
+      "api_env_key": "GROK_API_KEY",
+      "call_fn": "grok_llm_call",
+      "bench_name":"synthetic_cv_benchmark_grok.csv"
+    }
+  ],
+  "prompt_mi": "# Translate to medieval irish the following English sentence without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the Medieval Irish translation in the <response> XML tag: <response>Medieval Irish translation here</response>.\n# The sentence is:\n",
+  "prompt_en": "# Translate to English the following Medieval Irish sentence without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response> English translation here</response>.\n# The sentence is:\n"
+}

@@ -1,0 +1,44 @@
+{
+  "models": [
+     {
+      "id": "gpt4o",
+      "family": "api",
+      "skip": false,
+      "api_env_key": "CHATGPT_API_KEY",
+      "call_fn": "gpt_llm_call",
+      "model": "gpt-4o",
+      "supports_top_k": false
+    },
+    {
+      "id": "grok",
+      "family": "api",
+      "skip": false,
+      "api_env_key": "GROK_API_KEY",
+      "call_fn": "grok_llm_call",
+      "model": "grok-3",
+      "supports_top_k": false
+    },
+    {
+      "id": "gemini",
+      "family": "api",
+      "skip": false,
+      "api_env_key": "GEMINI_API_KEY",
+      "call_fn": "gemini_llm_call",
+      "model": "gemini-2.5-flash",
+      "supports_top_k": true
+    }
+  ],
+  "benchmarks":[
+    {
+      "name": "phrase_benchmark",
+      "id": "phrase_benchmark_dataset.csv",
+      "prompt": "# Translate to English the following medieval Irish phrase without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response>English translation here</response>.\n\n# Example 1\nMedieval Irish: \"Cid diatá Aided Cheltchair maic Uthechair?\"\n<response>When is the tragical death of Celtchar mac Uthechair?</response>\n\n# Example 2\nMedieval Irish: \"ocus clannaid Celtchar in gái trit\"\n<response>And Celtchar plants a spear through him</response>\n\n# Example 3\nMedieval Irish: \"Misi,\" ol in gilla.\n<response>“I,” said the lad.</response>\n\n# Now translate the following:\nMedieval Irish: \n"
+    },
+    {
+  "name": "para_benchmark",
+  "id": "final_paragraph_dataset.csv",
+  "prompt": "# Translate to English the following medieval Irish sentence without any explanation, greeting, or formatting commentary.\n# Give only a single most likely translation.\n# Encapsulate the English translation in the <response> XML tag: <response>English translation here</response>.\n\n# Example 1\nMedieval Irish: \"‘As trúagh an mheabail rob áil duit do dhénamh orm-sa, a Loingsecháin,’ ar sé ‘& ná bí ag mo thochrádh ní as sía, acht eirg dot thoigh & raghat-sa róm gonige an baile itá Eorann’.\"\n<response>‘Sad is the disgrace you would fain put upon me, Loingseachan,’ said he; ‘and do not continue annoying me further, but go to your house and I will go on to where Eorann is.’</response>\n\n# Example 2\nMedieval Irish: \"Roshiecht immorro Suibhne arnabhárach go Cill Derfile gur chaith biorar na tiobraidi & an t-uisge robhúi isin chill & táinic doinenn dermháir isin oidchi go rosgab athtuirsi adhbhalmór & snímhche Suibhne tria olcus a beathad & bheós rob íomhach athtuirseach leis bheith a n-égmuis Dhál Araidhe; conadh ann adbert na randa sae:\"\n<response>On the morrow Suibhne went to Cell Derfile where he fared on watercress of the well and the water which was in the church; there came a great storm in the night, and exceeding sorrow and grief took hold of Suibhne because of the wretchedness of his life; and moreover it was a cause of grief and sorrow to him to be absent from Dal Araidhe, whereupon he uttered these staves:</response>\n\n# Example 3\nMedieval Irish: \"Ba hé ord fris mboí, tobairt connaid don dún. Doberidh cúoail cech lái a hIndsib Mod. Noberiud an muir dá trien a cóile airi fó uhíth ba hénirt cen bieadh. Ní taprad acht éntrian, & nofiuradh an slúaigh ón tráth co 'role'.\"\n<response>This was the duty which he had, to bring firewood to the fortress. He would bring a bundle every day from the islands of Clew Bay. The sea would carry off two-thirds of his bundle because he was weak for lack of food. He used to bring back only one third, and he supplied the host from day to day.</response>\n\n# Now translate the following:\nMedieval Irish: \n"
+}
+
+]
+}
