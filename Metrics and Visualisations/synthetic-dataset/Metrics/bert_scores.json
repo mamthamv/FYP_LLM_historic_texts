@@ -1,0 +1,288 @@
+{
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Qwen3-14B-GGUF_Qwen3-14B-F16.gguf_synthetic_benchmark.csv": {
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.44011497497558594,
+            "Recall": 0.4400920867919922,
+            "F1": 0.4398025870323181
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.44546574354171753,
+            "Recall": 0.44174471497535706,
+            "F1": 0.44314780831336975
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.4446617066860199,
+            "Recall": 0.44313573837280273,
+            "F1": 0.44351568818092346
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.4430599808692932,
+            "Recall": 0.4408031105995178,
+            "F1": 0.4415116310119629
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Llama-3.2-3B-Instruct-GGUF_Llama-3.2-3B-Instruct-Q4_K_M.gguf_synthetic_benchmark.csv": {
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.4160376489162445,
+            "Recall": 0.40101519227027893,
+            "F1": 0.40798377990722656
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.4161795675754547,
+            "Recall": 0.4040536880493164,
+            "F1": 0.40923017263412476
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.4203769266605377,
+            "Recall": 0.39874404668807983,
+            "F1": 0.4079979360103607
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.40740013122558594,
+            "Recall": 0.38534340262413025,
+            "F1": 0.39524567127227783
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Phi-4-mini-instruct-GGUF_Phi-4-mini-instruct-Q4_K_M.gguf_synthetic_benchmark.csv": {
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.3571154475212097,
+            "Recall": 0.3326147496700287,
+            "F1": 0.3437478840351105
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.3617263436317444,
+            "Recall": 0.33254629373550415,
+            "F1": 0.3452560305595398
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.3733763098716736,
+            "Recall": 0.33176088333129883,
+            "F1": 0.3503255844116211
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.3623943328857422,
+            "Recall": 0.3256330192089081,
+            "F1": 0.3415568470954895
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Qwen3-14B-GGUF_Qwen3-14B-Q4_K_M.gguf_synthetic_benchmark.csv": {
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.4387173652648926,
+            "Recall": 0.4359211027622223,
+            "F1": 0.4368293285369873
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.4443407654762268,
+            "Recall": 0.44199371337890625,
+            "F1": 0.4427569508552551
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.4292016923427582,
+            "Recall": 0.42814213037490845,
+            "F1": 0.4282332956790924
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.44872456789016724,
+            "Recall": 0.44554194808006287,
+            "F1": 0.4468251168727875
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Qwen3-14B-GGUF_Qwen3-14B-Q2_K_L.gguf_synthetic_benchmark.csv": {
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.4072814881801605,
+            "Recall": 0.4065498411655426,
+            "F1": 0.40665221214294434
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.4063088893890381,
+            "Recall": 0.40414610505104065,
+            "F1": 0.4049406945705414
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.41703271865844727,
+            "Recall": 0.4206550121307373,
+            "F1": 0.41856756806373596
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.394318550825119,
+            "Recall": 0.39467647671699524,
+            "F1": 0.3941784203052521
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Phi-4-mini-instruct-GGUF_Phi-4-mini-instruct-Q2_K_L.gguf_synthetic_benchmark.csv": {
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.2683604955673218,
+            "Recall": 0.2434844672679901,
+            "F1": 0.25285273790359497
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.26578977704048157,
+            "Recall": 0.25949883460998535,
+            "F1": 0.25945666432380676
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.27670586109161377,
+            "Recall": 0.2685677111148834,
+            "F1": 0.2703917622566223
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.2669588625431061,
+            "Recall": 0.2817872166633606,
+            "F1": 0.2729188799858093
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Llama-3.2-3B-Instruct-GGUF_Llama-3.2-3B-Instruct-F16.gguf_synthetic_benchmark.csv": {
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.42266422510147095,
+            "Recall": 0.4055914282798767,
+            "F1": 0.4137232303619385
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.43202313780784607,
+            "Recall": 0.4048231244087219,
+            "F1": 0.41688281297683716
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.41948261857032776,
+            "Recall": 0.40350207686424255,
+            "F1": 0.4104415774345398
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.39432716369628906,
+            "Recall": 0.37305206060409546,
+            "F1": 0.38236865401268005
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Phi-4-mini-instruct-GGUF_Phi-4-mini-instruct-F16.gguf_synthetic_benchmark.csv": {
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.37722456455230713,
+            "Recall": 0.34921443462371826,
+            "F1": 0.36222538352012634
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.36713317036628723,
+            "Recall": 0.3394632339477539,
+            "F1": 0.3522105813026428
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.37432384490966797,
+            "Recall": 0.34636393189430237,
+            "F1": 0.3593675196170807
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.36143699288368225,
+            "Recall": 0.3392010033130646,
+            "F1": 0.34944427013397217
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/unsloth_Llama-3.2-3B-Instruct-GGUF_Llama-3.2-3B-Instruct-Q2_K_L.gguf_synthetic_benchmark.csv": {
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf_T0.1_K30_P0.7": {
+            "Precision": 0.3234068751335144,
+            "Recall": 0.284782737493515,
+            "F1": 0.2987620532512665
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf_T0.2_K40_P0.85": {
+            "Precision": 0.32958275079727173,
+            "Recall": 0.2778748869895935,
+            "F1": 0.29796886444091797
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf_T0.5_K30_P0.85": {
+            "Precision": 0.3341290056705475,
+            "Recall": 0.2986345589160919,
+            "F1": 0.3112823963165283
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf_T1.0_K40_P0.9": {
+            "Precision": 0.3305583596229553,
+            "Recall": 0.29004883766174316,
+            "F1": 0.3055303990840912
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/grok_synthetic_benchmark.csv": {
+        "grok_T0.1_P0.7": {
+            "Precision": 0.6022787094116211,
+            "Recall": 0.6013680696487427,
+            "F1": 0.6014932990074158
+        },
+        "grok_T0.2_P0.85": {
+            "Precision": 0.6047126650810242,
+            "Recall": 0.6032775640487671,
+            "F1": 0.6036681532859802
+        },
+        "grok_T0.5_P0.85": {
+            "Precision": 0.60295569896698,
+            "Recall": 0.6000264883041382,
+            "F1": 0.6010984182357788
+        },
+        "grok_T1.0_P0.9": {
+            "Precision": 0.5936906933784485,
+            "Recall": 0.5938215851783752,
+            "F1": 0.5934107899665833
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/gemma_synthetic_benchmark.csv": {
+        "gemma_T0.1_K30_P0.7": {
+            "Precision": 0.4807986319065094,
+            "Recall": 0.4793223738670349,
+            "F1": 0.47964486479759216
+        },
+        "gemma_T0.2_K40_P0.85": {
+            "Precision": 0.480228990316391,
+            "Recall": 0.4774356782436371,
+            "F1": 0.47841373085975647
+        },
+        "gemma_T0.5_K30_P0.85": {
+            "Precision": 0.4805954098701477,
+            "Recall": 0.48129111528396606,
+            "F1": 0.48053693771362305
+        },
+        "gemma_T1.0_K40_P0.9": {
+            "Precision": 0.48227691650390625,
+            "Recall": 0.4817105233669281,
+            "F1": 0.4815632700920105
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/gemini_synthetic_benchmark.csv": {
+        "gemini_T0.1_K30_P0.7": {
+            "Precision": 0.621834397315979,
+            "Recall": 0.611932635307312,
+            "F1": 0.6163278818130493
+        },
+        "gemini_T0.2_K40_P0.85": {
+            "Precision": 0.6216456294059753,
+            "Recall": 0.6134930849075317,
+            "F1": 0.6170233488082886
+        },
+        "gemini_T0.5_K30_P0.85": {
+            "Precision": 0.6240715384483337,
+            "Recall": 0.6111688613891602,
+            "F1": 0.6170961856842041
+        },
+        "gemini_T1.0_K40_P0.9": {
+            "Precision": 0.6214754581451416,
+            "Recall": 0.611879289150238,
+            "F1": 0.616244375705719
+        }
+    },
+    "/content/drive/MyDrive/synthetic_dataset/Model_outputs/gpt4o_synthetic_benchmark.csv": {
+        "gpt4o_T0.1_P0.7": {
+            "Precision": 0.594992995262146,
+            "Recall": 0.5794407725334167,
+            "F1": 0.5866802334785461
+        },
+        "gpt4o_T0.2_P0.85": {
+            "Precision": 0.5919284224510193,
+            "Recall": 0.5809100866317749,
+            "F1": 0.5860378742218018
+        },
+        "gpt4o_T0.5_P0.85": {
+            "Precision": 0.5940690636634827,
+            "Recall": 0.577804446220398,
+            "F1": 0.5854061841964722
+        },
+        "gpt4o_T1.0_P0.9": {
+            "Precision": 0.5898321270942688,
+            "Recall": 0.5819859504699707,
+            "F1": 0.5855797529220581
+        }
+    }
+}

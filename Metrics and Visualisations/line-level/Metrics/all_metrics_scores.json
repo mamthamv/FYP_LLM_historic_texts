@@ -1,0 +1,288 @@
+{
+    "gemini_phrase_benchmark.csv": {
+        "gemini_T0.1_K30_P0.7": {
+            "bleu": 0.16764712556360273,
+            "meteor": 0.4187167197917784,
+            "cosine_similarity": 0.6455667614936829
+        },
+        "gemini_T0.2_K40_P0.85": {
+            "bleu": 0.16312106046304692,
+            "meteor": 0.4056005352154862,
+            "cosine_similarity": 0.6412553191184998
+        },
+        "gemini_T0.5_K30_P0.85": {
+            "bleu": 0.15607936575843986,
+            "meteor": 0.41594560854196494,
+            "cosine_similarity": 0.6434118151664734
+        },
+        "gemini_T1.0_K40_P0.9": {
+            "bleu": 0.15772728630423571,
+            "meteor": 0.40786032910859554,
+            "cosine_similarity": 0.6382755041122437
+        }
+    },
+    "gemma_phrase_benchmark.csv": {
+        "gemma_T0.1_K30_P0.7": {
+            "bleu": 0.04140873659308192,
+            "meteor": 0.2043143024173985,
+            "cosine_similarity": 0.3753325939178467
+        },
+        "gemma_T0.2_K40_P0.85": {
+            "bleu": 0.041691864281223186,
+            "meteor": 0.20848989845408805,
+            "cosine_similarity": 0.3806838095188141
+        },
+        "gemma_T0.5_K30_P0.85": {
+            "bleu": 0.042334746670147104,
+            "meteor": 0.20885132949220753,
+            "cosine_similarity": 0.37990111112594604
+        },
+        "gemma_T1.0_K40_P0.9": {
+            "bleu": 0.042554811661708346,
+            "meteor": 0.21109703914787936,
+            "cosine_similarity": 0.3789469599723816
+        }
+    },
+    "gpt4o_phrase_benchmark.csv": {
+        "gpt4o_T0.1_P0.7": {
+            "bleu": 0.1626337997294331,
+            "meteor": 0.39521223081350376,
+            "cosine_similarity": 0.6031553745269775
+        },
+        "gpt4o_T0.2_P0.85": {
+            "bleu": 0.16125150721919648,
+            "meteor": 0.3981107754986106,
+            "cosine_similarity": 0.6059657335281372
+        },
+        "gpt4o_T0.5_P0.85": {
+            "bleu": 0.16157581245452052,
+            "meteor": 0.39698413573422064,
+            "cosine_similarity": 0.6053134799003601
+        },
+        "gpt4o_T1.0_P0.9": {
+            "bleu": 0.15811506196238465,
+            "meteor": 0.39249949997277883,
+            "cosine_similarity": 0.5923668146133423
+        }
+    },
+    "grok_phrase_benchmark.csv": {
+        "grok_T0.1_P0.7": {
+            "bleu": 0.16491272708174018,
+            "meteor": 0.40532818642345325,
+            "cosine_similarity": 0.6126952767372131
+        },
+        "grok_T0.2_P0.85": {
+            "bleu": 0.16284849989757463,
+            "meteor": 0.40153463759334346,
+            "cosine_similarity": 0.6072408556938171
+        },
+        "grok_T0.5_P0.85": {
+            "bleu": 0.17518278983308863,
+            "meteor": 0.40758705674820583,
+            "cosine_similarity": 0.6088764667510986
+        },
+        "grok_T1.0_P0.9": {
+            "bleu": 0.16078075822100912,
+            "meteor": 0.3993087176592882,
+            "cosine_similarity": 0.6082102060317993
+        }
+    },
+    "unsloth_Llama-3.2-3B-Instruct-GGUF_Llama-3.2-3B-Instruct-F16.gguf_phrase_benchmark.csv": {
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.011398368484913057,
+            "meteor": 0.09207077123072313,
+            "cosine_similarity": 0.25549089908599854
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf_T0.2_K40_P0.85": {
+            "bleu": 0.012815705123166408,
+            "meteor": 0.09294302089528501,
+            "cosine_similarity": 0.2363070249557495
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf_T0.5_K30_P0.85": {
+            "bleu": 0.004619682772661864,
+            "meteor": 0.08677922580653334,
+            "cosine_similarity": 0.24810639023780823
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-F16.gguf_T1.0_K40_P0.9": {
+            "bleu": 0.004321489465699328,
+            "meteor": 0.08620290162372397,
+            "cosine_similarity": 0.24098816514015198
+        }
+    },
+    "unsloth_Llama-3.2-3B-Instruct-GGUF_Llama-3.2-3B-Instruct-Q2_K_L.gguf_phrase_benchmark.csv": {
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.0019011151182394277,
+            "meteor": 0.04316132795164615,
+            "cosine_similarity": 0.13047996163368225
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf_T0.2_K40_P0.85": {
+            "bleu": 0.007664076729942241,
+            "meteor": 0.047966392538179595,
+            "cosine_similarity": 0.13811065256595612
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf_T0.5_K30_P0.85": {
+            "bleu": 0.006942188007722435,
+            "meteor": 0.05115954853209269,
+            "cosine_similarity": 0.14450736343860626
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q2_K_L.gguf_T1.0_K40_P0.9": {
+            "bleu": 0.006732746789548273,
+            "meteor": 0.05150318476574634,
+            "cosine_similarity": 0.15597794950008392
+        }
+    },
+    "unsloth_Llama-3.2-3B-Instruct-GGUF_Llama-3.2-3B-Instruct-Q4_K_M.gguf_phrase_benchmark.csv": {
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.004195672071090246,
+            "meteor": 0.09357644551171396,
+            "cosine_similarity": 0.24054254591464996
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf_T0.2_K40_P0.85": {
+            "bleu": 0.0046158480761518015,
+            "meteor": 0.08735267372945503,
+            "cosine_similarity": 0.23264285922050476
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf_T0.5_K30_P0.85": {
+            "bleu": 0.004830984640291651,
+            "meteor": 0.08067550651076504,
+            "cosine_similarity": 0.22512145340442657
+        },
+        "unsloth/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf_T1.0_K40_P0.9": {
+            "bleu": 0.008472205471603083,
+            "meteor": 0.06998312571147873,
+            "cosine_similarity": 0.22465725243091583
+        }
+    },
+    "unsloth_Phi-4-mini-instruct-GGUF_Phi-4-mini-instruct-F16.gguf_phrase_benchmark.csv": {
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.006063013735101125,
+            "meteor": 0.07630276361516854,
+            "cosine_similarity": 0.22202375531196594
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf_T0.2_K40_P0.85": {
+            "bleu": 0.0024271576751817964,
+            "meteor": 0.06672520656406786,
+            "cosine_similarity": 0.21048003435134888
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf_T0.5_K30_P0.85": {
+            "bleu": 0.001700559589373991,
+            "meteor": 0.05723432129101205,
+            "cosine_similarity": 0.19492630660533905
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-F16.gguf_T1.0_K40_P0.9": {
+            "bleu": 0.0021742908164001725,
+            "meteor": 0.059588270650838576,
+            "cosine_similarity": 0.19800589978694916
+        }
+    },
+    "unsloth_Phi-4-mini-instruct-GGUF_Phi-4-mini-instruct-Q2_K_L.gguf_phrase_benchmark.csv": {
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.0001566571040555585,
+            "meteor": 0.02159921256181403,
+            "cosine_similarity": 0.12884393334388733
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf_T0.2_K40_P0.85": {
+            "bleu": 3.66435220124846e-05,
+            "meteor": 0.020940056208145822,
+            "cosine_similarity": 0.1293317824602127
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf_T0.5_K30_P0.85": {
+            "bleu": 4.575051351560159e-05,
+            "meteor": 0.025278795028094797,
+            "cosine_similarity": 0.12830060720443726
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q2_K_L.gguf_T1.0_K40_P0.9": {
+            "bleu": 4.6190048944202786e-05,
+            "meteor": 0.02595257687826241,
+            "cosine_similarity": 0.12466305494308472
+        }
+    },
+    "unsloth_Phi-4-mini-instruct-GGUF_Phi-4-mini-instruct-Q4_K_M.gguf_phrase_benchmark.csv": {
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.001095410361693617,
+            "meteor": 0.0650731805440037,
+            "cosine_similarity": 0.20361019670963287
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf_T0.2_K40_P0.85": {
+            "bleu": 0.0018403635400398122,
+            "meteor": 0.06185951949627734,
+            "cosine_similarity": 0.19657021760940552
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf_T0.5_K30_P0.85": {
+            "bleu": 0.001028786421663375,
+            "meteor": 0.05167946843420584,
+            "cosine_similarity": 0.18876288831233978
+        },
+        "unsloth/Phi-4-mini-instruct-GGUF/Phi-4-mini-instruct-Q4_K_M.gguf_T1.0_K40_P0.9": {
+            "bleu": 0.000868192982083166,
+            "meteor": 0.0480233028693515,
+            "cosine_similarity": 0.1843661069869995
+        }
+    },
+    "unsloth_Qwen3-14B-GGUF_Qwen3-14B-F16.gguf_phrase_benchmark.csv": {
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.032370619335838756,
+            "meteor": 0.15920313315506815,
+            "cosine_similarity": 0.3476811349391937
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf_T0.2_K40_P0.85": {
+            "bleu": 0.03757751789374646,
+            "meteor": 0.1593573555232058,
+            "cosine_similarity": 0.34894028306007385
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf_T0.5_K30_P0.85": {
+            "bleu": 0.035316772416077065,
+            "meteor": 0.15441074649273995,
+            "cosine_similarity": 0.34534117579460144
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-F16.gguf_T1.0_K40_P0.9": {
+            "bleu": 0.03281243353244648,
+            "meteor": 0.16252841098845625,
+            "cosine_similarity": 0.3461044728755951
+        }
+    },
+    "unsloth_Qwen3-14B-GGUF_Qwen3-14B-Q2_K_L.gguf_phrase_benchmark.csv": {
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.03359567966314719,
+            "meteor": 0.14020053038021504,
+            "cosine_similarity": 0.2958627939224243
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf_T0.2_K40_P0.85": {
+            "bleu": 0.03074429453378719,
+            "meteor": 0.13848126976096592,
+            "cosine_similarity": 0.29524779319763184
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf_T0.5_K30_P0.85": {
+            "bleu": 0.022553797158936868,
+            "meteor": 0.1344591322451452,
+            "cosine_similarity": 0.29775553941726685
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q2_K_L.gguf_T1.0_K40_P0.9": {
+            "bleu": 0.016522600230109114,
+            "meteor": 0.13595665371759458,
+            "cosine_similarity": 0.3026750087738037
+        }
+    },
+    "unsloth_Qwen3-14B-GGUF_Qwen3-14B-Q4_K_M.gguf_phrase_benchmark.csv": {
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf_T0.1_K30_P0.7": {
+            "bleu": 0.02924425145364238,
+            "meteor": 0.15565233769494455,
+            "cosine_similarity": 0.3439781665802002
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf_T0.2_K40_P0.85": {
+            "bleu": 0.02880724337149664,
+            "meteor": 0.15527020452771417,
+            "cosine_similarity": 0.3354642391204834
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf_T0.5_K30_P0.85": {
+            "bleu": 0.034493641369544,
+            "meteor": 0.15445794866999696,
+            "cosine_similarity": 0.34533730149269104
+        },
+        "unsloth/Qwen3-14B-GGUF/Qwen3-14B-Q4_K_M.gguf_T1.0_K40_P0.9": {
+            "bleu": 0.039266633957314855,
+            "meteor": 0.16302162405057666,
+            "cosine_similarity": 0.3467215597629547
+        }
+    }
+}
