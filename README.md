@@ -11,6 +11,7 @@ FYP_LLM_historic_texts/
 │
 ├── benchmark_datasets/     # Benchmark datasets (eDIL, CELT, ISO, synthetic)
 ├── cross_model_evaluation/      # code for cross modal evaluation
+├── Metrics and Visualisations/  # scripts for metric calculations, resulting scores and visualisations
 ├── outputs_inital_proprietary_models/  #csv files of outputs from chat-interface of proprietary models
 ├── threeshot_code/         # code for evaluation of proprietary models for three-shot prompting
 ├── web_scraper/            # code used to perform web scraping and create benchmark datasets
@@ -92,7 +93,7 @@ python main_file.py
 > The same procedure applies for `threeshot_code` experiments.
 ---
 
-## Results
+## Results and Visualisations
 
-## Visualisations
+All the scores obtained from multi-metric evaluation is stored and corresponding visualisations can be seen in the "Metrics and Visualisations" folder. 
 
